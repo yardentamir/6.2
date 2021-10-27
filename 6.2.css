@@ -1,20 +1,26 @@
+/* General */
 * {
   box-sizing: border-box;
 }
 
+#container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
 /* Style card */
 .card {
-  position: relative;
   max-width: 26.5em;
   margin: 2rem auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  /*text-align: center;*/
+  text-align: center;
   background-color: #ece8cc;
+  float: right;
 }
 .card_img {
   display: block;
   max-width: 100%;
-  /*margin: 1em auto;*/
+  margin: 1em auto;
   border-radius: 2px;
 }
 
@@ -24,4 +30,13 @@
 
 .card_links a {
   color: #6b4813 !important;
+}
+
+/* Floats */
+.card_w1 {
+  float: left;
+}
+
+.card_w2 {
+  float: right;
 }
