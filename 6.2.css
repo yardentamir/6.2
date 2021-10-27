@@ -40,3 +40,31 @@
 .card_w2 {
   float: right;
 }
+
+/* Navbar Styling */
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #795200;
+  border-radius: 5px;
+  position: sticky;
+  width: 100%;
+  overflow: hidden;
+}
+.navbar li {
+  float: left;
+  overflow: auto;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px;
+}
+
+.navbar li a:hover {
+  background: #af7802;
+}
